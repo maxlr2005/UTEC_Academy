@@ -1,0 +1,111 @@
+body
+{
+	background: ##050505;
+background-image: url("jeanselacome.png"), url("ZenBG-2.png");
+background-repeat: repeat-y, repeat;
+	font-family:"Helvetica",Arial;	
+}
+#contenido
+{
+	width:1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+h1
+{
+	color: #FFF;
+
+	text-shadow: 0px 0px 10px rgba(0,0,0,1);
+
+}
+h2
+{
+	color:#FFF;
+	text-shadow: 0px 0px 8px rgba(0,0,0,0.8);
+}
+nav ul li 
+{
+	display:inline-block;
+	margin-right: 20px;
+	color: #FFF;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 5px;
+	text-shadow: 0px 5px 10px rgba(0,0,0,0.8);
+	transition:all 0.3s linear;
+
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-o-transition:all 0.3s linear;
+
+
+}
+nav ul li:hover
+{
+	background-color: rgba(0,0,0,0.6);
+	color: #e44e2d;
+	border-radius: 4px;
+}
+nav ul li a
+{
+	text-decoration: none;
+}
+#TextoPrinc
+{
+	width: 600px;
+	height: 500px;
+	background: rgba(0,0,0,0.6);
+	color: #FFF;
+	margin: 0 auto;
+	text-align: left;
+	border-radius: 15px;
+	padding: 15px;
+	box-shadow: 0px 0px 22px rgba(0,0,0,0.6);
+}
+a
+{
+	color: #04B486;
+	font-weight: bold;
+}
+meter
+{
+	color: #FFF;
+	width: 200px;
+	margin-left: 20px;
+	border-radius: 14px;
+	padding:5px;
+}
+label
+{
+	display: block;
+}
+#btnSubmitctus
+{
+	border: none;
+	background-color: #FFF;
+	color: #088A85;
+	padding: 4px;
+	margin: 20px;
+	cursor: pointer;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+	border-radius: 10px;
+
+}
+#Rateus
+{
+	width: 150px;
+	-webkit-appearance:none;
+	background-color: #088A85;
+	height: 20px;
+	border-radius: 6px;
+	cursor: pointer;
+
+}
+#Rateus::-webkit-slider-thumb
+{
+	-webkit-appearance:none;
+	background-color: #FFF;
+	border-radius: 4px;
+	height: 15px;
+	width: 10px;
+}
