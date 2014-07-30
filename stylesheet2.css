@@ -1,6 +1,6 @@
 body
 {
-	background: ##050505;
+	background: #050505;
 background-image: url("jeanselacome.png"), url("ZenBG-2.png");
 background-repeat: repeat-y, repeat;
 	font-family:"Helvetica",Arial;	
@@ -52,7 +52,7 @@ nav ul li a
 }
 #TextoPrinc
 {
-	width: 600px;
+	width: 800px;
 	height: auto;
 	background: rgba(0,0,0,0.6);
 	color: #FFF;
